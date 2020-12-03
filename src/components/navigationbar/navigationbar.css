@@ -1,0 +1,15 @@
+.navigationBar {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: rgb(158, 158, 158);
+}
+
+.bkps {
+    background-color: rgb(158, 158, 158);
+}
+
+.logoType {
+    width: 40px;    
+    align-self: center;
+    cursor: pointer;
+}

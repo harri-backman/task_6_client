@@ -1,0 +1,18 @@
+.profileDropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(187, 191, 248);
+    min-width:100px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.profileDropdown a {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.profile:hover .profileDropdown {
+    display: block;
+}
